@@ -23,9 +23,9 @@ const AboutSection = () => {
                     transition={{ duration: 0.6, ease: 'easeOut' }}
                     className="bg-primary/5 border border-border rounded-lg p-4"
                 >
-                    <h1 className="text-6xl mb-3">About me</h1>
+                    <h1 className=" mb-3">About me</h1>
                     <AnimatedText
-                        wordClass="font-bold !text-xl max-mobile-lg:!text-lg"
+                        wordClass=" text-xl max-mobile-lg:!text-lg"
                         motionClass="text-primary !text-xl max-mobile-lg:!text-lg"
                         text={aboutText}
                     />

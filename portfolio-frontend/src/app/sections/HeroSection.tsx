@@ -59,7 +59,7 @@ const HeroSection: React.FC = () => {
                                     fontSize="clamp(3rem, 15vw, 13rem)"
                                     fontWeight="bold"
                                     fill="transparent"
-                                    className="text-primary stroke-primary stroke-3 opacity-10"
+                                    className="text-primary stroke-primary stroke-[5px] opacity-10"
                                 >
                                     Fi Amanillah
                                 </text>

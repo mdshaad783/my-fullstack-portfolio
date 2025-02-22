@@ -9,6 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { toast } from 'sonner';
+import api from '@/utils/axiosApiInstence';
 
 // Define the form schema using Zod
 const formSchema = z.object({
@@ -34,14 +35,13 @@ export default function ContactForm() {
 
     const onSubmit = async (data: FormData) => {
         setLoading(true);
+        console.log(process.env.NEXT_PUBLIC_BACKEND_URI);
         try {
-            const result = await fetch(`https://formspree.io/f/moqolweg`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(data),
-            });
+            const result = await api.post('/api/form/contact', data);
 
-            if (result.ok) {
+            console.log(result);
+
+            if (result.status === 200) {
                 toast('Your message has been sent successfully!');
                 reset();
             } else {

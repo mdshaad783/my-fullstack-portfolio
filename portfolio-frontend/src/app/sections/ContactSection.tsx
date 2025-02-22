@@ -13,11 +13,12 @@ import Image from 'next/image';
 const ContactSection: React.FC = () => {
     return (
         <Section className={'relative z-20 min-h-screen flex items-center'}>
-            <div className="text-center py-10">
+            <div className="text-center py-10 mobile-lg:w-9/12 mx-auto">
                 <h1>Contact</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat perferendis
-                    nesciunt eaque labore aliquid. Architecto ex dolor rerum repellendus maiores.
+                    Whether you have a project in mind, need a consultation, have a job offer or
+                    just want to connect, feel free to reach out. Let&apos;s build something amazing
+                    together!
                 </p>
             </div>
             <div className="flex gap-4 max-tablet-lg:flex-col">

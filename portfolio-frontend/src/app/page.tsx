@@ -11,6 +11,8 @@ import ContactSection from './sections/ContactSection';
 import FooterSection from './sections/FooterSection';
 
 const Home: React.FC = () => {
+    console.log(process.env.NEXT_PUBLIC_BACKEND_URI);
+
     return (
         <>
             <div id="home">

@@ -10,8 +10,11 @@ interface Env {
     PORT: number;
     NODE_ENV: string;
     DATABASE_URL: string;
-    JWT_SECRET: string;
-    API_KEY: string;
+
+    SMTP_HOST: string;
+    SMTP_PORT: number;
+    SMTP_USER: string;
+    SMTP_PASS: string;
 }
 
 // Validate and export environment variables
@@ -19,8 +22,10 @@ const env: Env = {
     PORT: parseInt(process.env.PORT || '3000', 10),
     NODE_ENV: process.env.NODE_ENV || 'development',
     DATABASE_URL: process.env.DATABASE_URL || '',
-    JWT_SECRET: process.env.JWT_SECRET || '',
-    API_KEY: process.env.API_KEY || '',
+    SMTP_HOST: process.env.SMTP_HOST || '',
+    SMTP_PORT: parseInt(process.env.SMTP_PORT || '', 10),
+    SMTP_USER: process.env.SMTP_USER || '',
+    SMTP_PASS: process.env.SMTP_PASS || '',
 };
 
 // Validate required environment variables
@@ -28,12 +33,10 @@ if (!env.DATABASE_URL) {
     throw new Error('DATABASE_URL is not defined in .env');
 }
 
-if (!env.JWT_SECRET) {
-    throw new Error('JWT_SECRET is not defined in .env');
-}
-
-if (!env.API_KEY) {
-    throw new Error('API_KEY is not defined in .env');
+if (!env.SMTP_HOST || !env.SMTP_USER || !env.SMTP_PASS) {
+    throw new Error('SMTP configuration is not defined in .env');
 }
 
 export default env;
+
+// This snippet loads environment variables from a .env file, defines the shape of the environment variables, validates the required environment variables, and exports the environment variables for use in other parts of the application.

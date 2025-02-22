@@ -63,7 +63,7 @@ const Phrase: React.FC<PhraseProps> = ({ src }) => {
     return (
         <div className={'px-5 flex gap-5 items-center'}>
             <p className="text-[5vw] leading-[5vw]">Web Developer</p>
-            <span className="relative h-[3vw] aspect-[1/1] rounded-full overflow-hidden">
+            <span className="relative h-[4vw] aspect-[1/1]  overflow-hidden">
                 <Image
                     style={{ objectFit: 'cover' }}
                     src={src}

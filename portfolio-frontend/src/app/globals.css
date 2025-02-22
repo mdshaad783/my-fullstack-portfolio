@@ -167,11 +167,14 @@ html {
     --font-roboto: 'Roboto', sans-serif;
 
     /* Custom Breakpoints */
-    --breakpoint-desktop-xl: 1535px; /* 95.9375rem */
-    --breakpoint-laptop-xl: 1279px; /* 79.9375rem */
-    --breakpoint-tablet-lg: 1023px; /* 63.9375rem */
-    --breakpoint-mobile-lg: 767px; /* 47.9375rem */
-    --breakpoint-mobile-sm: 639px; /* 39.9375rem */
+    --breakpoint-desktop-3xl: 1920px;
+    --breakpoint-desktop-2xl: 1700px;
+    --breakpoint-desktop-xl: 1535px;
+    --breakpoint-laptop-xl: 1279px;
+    --breakpoint-tablet-lg: 1023px;
+    --breakpoint-mobile-lg: 767px;
+    --breakpoint-mobile-sm: 639px;
+    --breakpoint-mobile-xs: 480px;
 
     --color-background: var(--background);
     --color-foreground: var(--foreground);
