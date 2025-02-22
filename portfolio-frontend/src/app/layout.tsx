@@ -25,7 +25,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="en" suppressHydrationWarning>
             <body
-                className={`antialiased ${oxanium.variable} font-oxanium bg-background prose max-w-none`}
+                className={`antialiased ${oxanium.variable} font-oxanium bg-background  max-w-none`}
             >
                 <LenisProvider />
                 <ThemeProvider

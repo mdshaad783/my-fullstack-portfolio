@@ -15,7 +15,7 @@ const Header: React.FC = () => {
                 <h1 className="basis-1/6 flex justify-center items-center">
                     <Link
                         href="/"
-                        className="text-primary text-2xl font-bold hover:text-primary no-underline text-nowrap select-none flex items-center gap-2 h-10 mobile-sm:h-8"
+                        className="text-primary text-2xl font-bold hover:text-primary no-underline text-nowrap select-none flex items-center gap-2 h-10 max-mobile-sm:h-8"
                     >
                         <Image
                             src={logo}
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                         Fi Amanillah
                     </Link>
                 </h1>
-                <div className="tablet-lg:hidden basis-4/6 flex justify-center">
+                <div className="max-tablet-lg:hidden basis-4/6 flex justify-center">
                     <NavMenu />
                 </div>
                 <div className="basis-1/6 flex items-center justify-end gap-2">
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
                         <Button className="font-bold">Resume</Button>
                     </Link>
                     <ModeToggle />
-                    <div className="hidden tablet-lg:block">
+                    <div className="hidden max-tablet-lg:block">
                         <Sheet>
                             <SheetTrigger asChild>
                                 <Button variant="outline" className="w-10 h-10 rounded-full">

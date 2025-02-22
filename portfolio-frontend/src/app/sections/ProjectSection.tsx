@@ -91,7 +91,7 @@ const ProjectSection: React.FC = () => {
         <div className="relative">
             {/* Main Section */}
             <Section className={'py-10 relative'}>
-                <div className="flex flex-col justify-center text-center py-10 w-2/3 mx-auto mobile-lg:w-full z-10">
+                <div className="flex flex-col justify-center text-center py-10 w-2/3 mx-auto max-mobile-lg:w-full z-10">
                     <h1>Projects</h1>
                     <p>
                         Explore a collection of my projects that showcase my skills in web

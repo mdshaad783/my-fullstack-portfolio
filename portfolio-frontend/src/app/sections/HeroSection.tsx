@@ -31,12 +31,12 @@ const HeroSection: React.FC = () => {
 
             <Section className={'!p-0 z-10 relative'}>
                 {/* Hero Section */}
-                <div className="flex tablet-lg:flex-col pt-5 min-h-[75vh] relative">
+                <div className="flex max-tablet-lg:flex-col pt-5 min-h-[75vh] relative">
                     {/* Animated Gradient Background */}
-                    <div className="absolute z-0 top-0 left-0 tablet-lg:top-[40%] mobile-sm:top-[55%] w-full h-full tablet-lg:h-1/2 flex justify-center items-start">
+                    <div className="absolute z-0 top-0 left-0 max-tablet-lg:top-[40%] max-mobile-sm:top-[55%] w-full h-full max-tablet-lg:h-1/2 flex justify-center items-start">
                         <div className="relative w-full h-[30%] flex justify-center items-center">
                             {/* Animated Gradient Background */}
-                            <div className="absolute inset-0 -z-10 transform-gpu overflow-hidden blur-[50px] flex justify-center items-center ">
+                            <div className="absolute inset-0 z-0 transform-gpu overflow-hidden blur-[50px] flex justify-center items-center ">
                                 <div
                                     style={{
                                         clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)',
@@ -49,18 +49,17 @@ const HeroSection: React.FC = () => {
                             <svg
                                 width="100%"
                                 height="100%"
-                                className="absolute top-0 left-0 opacity-10 animate-floating"
+                                className="absolute top-0 left-0 opacity-100 animate-floating"
                             >
                                 <text
                                     x="50%"
                                     y="50%"
                                     textAnchor="middle"
                                     dy="0.35em"
-                                    fontSize="clamp(3rem, 15vw, 14rem)"
+                                    fontSize="clamp(3rem, 15vw, 13rem)"
                                     fontWeight="bold"
                                     fill="transparent"
-                                    className="text-primary stroke-primary"
-                                    style={{ strokeWidth: '0.5px' }}
+                                    className="text-primary stroke-primary stroke-3 opacity-10"
                                 >
                                     Fi Amanillah
                                 </text>
@@ -68,7 +67,7 @@ const HeroSection: React.FC = () => {
                         </div>
                     </div>
                     {/* Animated Dots */}
-                    <div className="absolute bottom-[15%] left-[5%] right-[30%] w-44 flex flex-col gap-2 z-0 tablet-lg:hidden">
+                    <div className="absolute bottom-[15%] left-[5%] right-[30%] w-44 flex flex-col gap-2 z-0 max-tablet-lg:hidden">
                         <motion.div
                             animate={{ x: [-5, 5, -5] }}
                             transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
@@ -125,7 +124,7 @@ const HeroSection: React.FC = () => {
                     </div>
 
                     {/* Right Content - Hero Image */}
-                    <div className="basis-1/2 flex justify-end items-end z-20 mobile-lg:mt-10 relative">
+                    <div className="basis-1/2 flex justify-end items-end z-20 max-mobile-lg:mt-10 relative">
                         <SocialIcons />
                         <div>
                             <motion.div
@@ -160,7 +159,7 @@ const HeroSection: React.FC = () => {
                                         repeat: Infinity,
                                         ease: 'easeInOut',
                                     }}
-                                    className="absolute -top-10 mobile-sm:-top-12 mobile-sm:right-[25%] right-[30%] w-24"
+                                    className="absolute -top-10 max-mobile-sm:-top-12 max-mobile-sm:right-[25%] right-[30%] w-24"
                                 >
                                     <Image src={headShine} alt="headShine" />
                                 </motion.div>
@@ -170,7 +169,7 @@ const HeroSection: React.FC = () => {
                             <motion.div
                                 animate={{ x: [0, '5px', 0] }}
                                 transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-                                className="absolute top-[50%] left-[15%] tablet-lg:top-1/2 tablet-lg:left-[10%] mobile-lg:top-[45%]  mobile-lg:left-[5%] w-20 tablet-lg:w-32 mobile-lg:w-24 opacity-65 dark:opacity-100 dark:brightness-[3] mobile-sm:top-[45%]"
+                                className="absolute top-[50%] left-[15%] max-tablet-lg:top-1/2 max-tablet-lg:left-[10%] max-mobile-lg:top-[45%]  max-mobile-lg:left-[5%] w-20 max-tablet-lg:w-32 max-mobile-lg:w-24 opacity-65 dark:opacity-100 dark:brightness-[3] max-mobile-sm:top-[45%]"
                             >
                                 <Image src={dottedArrow} alt="dottedArrow" />
                             </motion.div>
@@ -181,7 +180,7 @@ const HeroSection: React.FC = () => {
                     <motion.div
                         animate={{ rotate: [0, 10, 0], y: [0, '15px', 0] }}
                         transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-                        className="absolute top-5 right-16 w-20 mobile-sm:w-12 mobile-sm:top-2 tablet-lg:right-24 mobile-sm:right-28"
+                        className="absolute top-5 right-16 w-20 max-mobile-sm:w-12 max-mobile-sm:top-2 max-tablet-lg:right-24 max-mobile-sm:right-28"
                     >
                         <Image src={crossArrow} alt="crossArrow" />
                     </motion.div>

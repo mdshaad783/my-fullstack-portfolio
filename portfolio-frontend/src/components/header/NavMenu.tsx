@@ -28,10 +28,10 @@ export default function NavMenu() {
     };
 
     return (
-        <div className="flex items-center tablet-lg:flex-col">
+        <div className="flex items-center max-tablet-lg:flex-col">
             {links.map(link => (
                 <Link href={link.link} key={link.name} onClick={e => handleScroll(e, link.link)}>
-                    <Button variant="ghost" className="tablet-lg:text-start">
+                    <Button variant="ghost" className="max-tablet-lg:text-start">
                         {link.name}
                     </Button>
                 </Link>

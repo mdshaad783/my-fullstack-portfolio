@@ -20,7 +20,7 @@ const ContactSection: React.FC = () => {
                     nesciunt eaque labore aliquid. Architecto ex dolor rerum repellendus maiores.
                 </p>
             </div>
-            <div className="flex gap-4 tablet-lg:flex-col">
+            <div className="flex gap-4 max-tablet-lg:flex-col">
                 <div className="basis-1/3 bg-card p-4 border border-border rounded-xl">
                     <h1></h1>
                     <Image src={contact} alt="Contact" className="w-[50%] mx-auto" />

@@ -15,7 +15,7 @@ const aboutText = `
 const AboutSection = () => {
     return (
         <Section className="relative py-10">
-            <div className="flex mobile-lg:flex-col-reverse justify-start items-stretch gap-2 overflow-hidden">
+            <div className="flex max-mobile-lg:flex-col-reverse justify-start items-stretch gap-2 overflow-hidden">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -25,8 +25,8 @@ const AboutSection = () => {
                 >
                     <h1 className="text-6xl mb-3">About me</h1>
                     <AnimatedText
-                        wordClass="font-bold !text-xl mobile-lg:!text-lg"
-                        motionClass="text-primary !text-xl mobile-lg:!text-lg"
+                        wordClass="font-bold !text-xl max-mobile-lg:!text-lg"
+                        motionClass="text-primary !text-xl max-mobile-lg:!text-lg"
                         text={aboutText}
                     />
                 </motion.div>
@@ -36,7 +36,7 @@ const AboutSection = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true, amount: 0.1 }}
                     transition={{ duration: 0.6, ease: 'easeOut', delay: 0.2 }}
-                    className="bg-card flex flex-col mobile-lg:flex-row gap-2 rounded-lg p-4 border border-border"
+                    className="bg-card flex flex-col max-mobile-lg:flex-row gap-2 rounded-lg p-4 border border-border"
                 >
                     <div className="w-60 h-60">
                         <Image
@@ -60,7 +60,7 @@ const AboutSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.1 }}
                     transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
-                    className="flex mobile-lg:flex-col justify-between bg-card p-4 border border-border rounded-lg"
+                    className="flex max-mobile-lg:flex-col justify-between bg-card p-4 border border-border rounded-lg"
                 >
                     <div className="flex gap-2">
                         <div className="border-l-4 border-primary pl-2">
@@ -70,7 +70,7 @@ const AboutSection = () => {
                             </span>
                         </div>
                     </div>
-                    <div className="mobile-lg:mt-2">
+                    <div className="max-mobile-lg:mt-2">
                         <span>2024 - present</span>
                     </div>
                 </motion.div>

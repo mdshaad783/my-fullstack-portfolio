@@ -6,7 +6,7 @@ const SkillSection: React.FC = () => {
     return (
         <Section className={'relative py-10'}>
             {/* <SectionBackgrpound1 /> */}
-            <div className="text-center w-4/6 mx-auto tablet-lg:w-full">
+            <div className="text-center w-4/6 mx-auto max-tablet-lg:w-full">
                 <h1>What I Know</h1>
                 <p>
                     I specialize in building modern, scalable, and user-friendly web applications.

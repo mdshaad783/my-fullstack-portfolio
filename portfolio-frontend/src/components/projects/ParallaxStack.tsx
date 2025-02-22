@@ -76,12 +76,12 @@ const Card: React.FC<CardProps> = ({ project, progress, range, targetScale, inde
     return (
         <motion.div ref={cardRef} className="sticky w-full top-20 h-screen" style={{ translateY }}>
             <motion.div
-                className={`w-full tablet-lg:min-h-[50vh] mobile-lg:min-h-[60vh] rounded-2xl overflow-hidden bg-card relative shadow-lg hover:shadow-[0px_5px_20px] hover:shadow-muted border border-border ${project.color} origin-top z-10`}
+                className={`w-full max-tablet-lg:min-h-[50vh] max-mobile-lg:min-h-[60vh] rounded-2xl overflow-hidden bg-card relative shadow-lg hover:shadow-[0px_5px_20px] hover:shadow-muted border border-border ${project.color} origin-top z-10`}
                 style={{ scale }}
             >
-                <div className="flex mobile-lg:flex-col justify-between w-full relative z-20">
+                <div className="flex max-mobile-lg:flex-col justify-between w-full relative z-20">
                     {/* Image Section */}
-                    <div className="basis-4/6 rounded-3xl p-4 mobile-sm:p-2 overflow-hidden">
+                    <div className="basis-4/6 rounded-3xl p-4 max-mobile-sm:p-2 overflow-hidden">
                         <div className="w-full h-full overflow-hidden rounded-xl border border-border">
                             <Image
                                 src={project.image}
@@ -94,10 +94,10 @@ const Card: React.FC<CardProps> = ({ project, progress, range, targetScale, inde
                     </div>
 
                     {/* Content Section */}
-                    <div className="basis-2/6 flex flex-col gap-3 justify-between p-4 mobile-sm:p-2 mobile-sm:pt-0 relative">
+                    <div className="basis-2/6 flex flex-col gap-3 justify-between p-4 max-mobile-sm:p-2 max-mobile-sm:pt-0 relative">
                         <div>
-                            <h2 className="mobile-sm:text-2xl">{project.title}</h2>
-                            <p className="mobile-sm:text-md mobile-sm:max-h-[20vh] mobile-sm:overflow-y-auto mobile-sm:text-ellipsis">
+                            <h2 className="max-mobile-sm:text-2xl">{project.title}</h2>
+                            <p className="max-mobile-sm:text-md max-mobile-sm:max-h-[20vh] max-mobile-sm:overflow-y-auto max-mobile-sm:text-ellipsis">
                                 {project.description}
                             </p>
                             <div className="flex flex-wrap gap-2">
