@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const SectionBackgrpound1: React.FC = () => {
     return (
-        <div className="absolute top-0 inset-0 z-0">
+        <div className="absolute top-0 inset-0 -z-10">
             <Image
                 src={bg}
                 alt="Background"

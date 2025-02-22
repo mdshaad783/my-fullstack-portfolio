@@ -8,17 +8,12 @@ import Header from '@/components/header/Header';
 
 const oxanium = Oxanium({
     subsets: ['latin'],
-    weight: ['400'], // Choose weights you need
     variable: '--font-oxanium', // Define a CSS variable for Tailwind
 });
 
 export const metadata = {
     title: 'Fi Amanillah',
     description: 'Fi Amanillah - Portfolio',
-    icons: {
-        icon: '/favicon.svg', // Default favicon
-        shortcut: '/favicon.svg', // Shortcut icon
-    },
 };
 
 // Define Props Type
