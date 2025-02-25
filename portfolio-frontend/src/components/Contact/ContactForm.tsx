@@ -39,8 +39,6 @@ export default function ContactForm() {
         try {
             const result = await api.post('/api/form/contact', data);
 
-            console.log(result);
-
             if (result.status === 200) {
                 toast('Your message has been sent successfully!');
                 reset();
