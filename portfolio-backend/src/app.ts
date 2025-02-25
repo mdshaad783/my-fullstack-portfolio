@@ -2,18 +2,16 @@ import express, { Request, Response } from 'express';
 import cors from 'cors';
 import errorMiddleware from './middleware/errorHandler';
 import formRoutes from './routes/formRoutes';
+
 const app = express();
 
+// CORS configuration
 app.use(
     cors({
-        origin: 'https://fi.amanillah.com', // Allow only your frontend domain
-        methods: ['GET', 'POST', 'PUT', 'DELETE'],
-        allowedHeaders: ['Content-Type', 'Authorization'],
-        credentials: true, // Allow cookies if needed
+        origin: ['https://fi.amanillah.com', 'http://localhost:3010'], // Allow only your frontend domain
+        credentials: true, // Allow credentials if needed
     })
 );
-
-app.options('*', cors());
 
 // Middleware
 app.use(express.json());

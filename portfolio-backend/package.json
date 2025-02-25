@@ -4,8 +4,8 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "start": "tsc && node dist/server.js",
-        "build": "tsc",
+        "start": "tsc && cp -r src/emails dist/ && node dist/server.js",
+        "build": "tsc && cp -r src/emails dist/",
         "dev": "nodemon src/server.ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
