@@ -8,7 +8,12 @@ const app = express();
 // CORS configuration
 app.use(
     cors({
-        origin: ['https://fi.amanillah.com', 'http://localhost:3010'], // Allow only your frontend domain
+        origin: [
+            'https://fi.amanillah.com',
+            'https://amanillah.com',
+            'https://www.amanillah.com',
+            'http://localhost:3010',
+        ], // Allow only your frontend domain
         credentials: true, // Allow credentials if needed
     })
 );
