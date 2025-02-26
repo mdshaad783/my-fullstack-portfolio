@@ -4,14 +4,12 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Email Template</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #f4f4f4;
-                margin: 0;
-                padding: 10px;
-            }
-            .email-container {
+    </head>
+    <body
+        style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 10px"
+    >
+        <div
+            style="
                 width: 100%;
                 max-width: 600px;
                 background-color: #e5e5e5;
@@ -20,97 +18,38 @@
                 overflow: hidden;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
                 border: 2px solid #000000;
-            }
-            .header {
-                background: url('https://d4e0ab99-542d-4b18-90f6-78fe712e99f3.b-cdn.net/e/9ecc74fc-b8c0-4a14-ae64-b4ec238396e1/05584b56-d4ce-4e28-90da-0b8b07230c9d.png')
-                    no-repeat top;
-                background-size: cover;
-                padding: 20px 20px;
-                display: flex;
-                justify-content: start;
-            }
-            .header img {
-                width: 100px;
-            }
-            .content {
-                background-color: #ffe8c5;
-                padding: 15px;
-                margin: 10px;
-                border-radius: 10px;
-                border: 2px solid #000000;
-                text-align: start;
-                font-size: 16px;
-            }
-            .card {
-                display: flex;
-                align-items: center;
-                padding: 20px;
-                background: #fdb462;
-                margin: 10px;
-                border-radius: 10px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                border: 2px solid #000000;
-            }
-            .card .profile-picture {
-                max-width: 180px;
-                max-height: 180px;
-                border-radius: 10px;
-                margin-right: 15px;
-                border: 2px solid #000000;
-            }
-            .card-details {
-                color: #333;
-            }
-            .card-details h2 {
-                margin: 5px 0;
-                font-size: 2rem;
-            }
-            .card-details h3 {
-                margin: 5px 0;
-                font-size: 1.2rem;
-            }
-            .card-details a {
-                text-decoration: none;
-                color: #333;
-                font-weight: 600;
-            }
-            .card-details a:hover {
-                color: #000;
-            }
-            .card-details p {
-                margin: 2px 0;
-                font-size: 14px;
-            }
-            .social-icons {
-                margin-top: 10px;
-            }
-            .social-icons img {
-                width: 30px;
-                height: 30px;
-                margin-right: 8px;
-            }
-
-            @media screen and (max-width: 470px) {
-                .card {
-                    flex-direction: column;
-                    align-items: start;
-                }
-                .card .profile-picture {
-                    margin-right: 0;
-                    margin-bottom: 15px;
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <div class="email-container">
-            <div class="header">
+            "
+        >
+            <!-- Header -->
+            <div
+                style="
+                    background: url('https://d4e0ab99-542d-4b18-90f6-78fe712e99f3.b-cdn.net/e/9ecc74fc-b8c0-4a14-ae64-b4ec238396e1/05584b56-d4ce-4e28-90da-0b8b07230c9d.png')
+                        no-repeat top;
+                    background-size: cover;
+                    padding: 20px 20px;
+                    display: flex;
+                    justify-content: start;
+                "
+            >
                 <img
                     src="https://res.cloudinary.com/dlkk03hhl/image/upload/v1740560631/applicationFormImage_67bed891d9d7b9368adea41d_logo.png.png"
                     alt="Email Icon"
+                    style="width: 100px"
                 />
             </div>
-            <div class="content">
+
+            <!-- Content -->
+            <div
+                style="
+                    background-color: #ffe8c5;
+                    padding: 15px;
+                    margin: 10px;
+                    border-radius: 10px;
+                    border: 2px solid #000000;
+                    text-align: start;
+                    font-size: 16px;
+                "
+            >
                 A new contact form submission has been received. Below are the details:
                 <br />
                 <br />
@@ -123,32 +62,82 @@
                 <strong>Message:&nbsp; <br /> </strong><%= message %>
                 <br />
             </div>
-            <div class="card">
+
+            <!-- Card -->
+            <div
+                style="
+                    display: flex;
+                    align-items: start;
+                    gap: 10px;
+                    padding: 10px;
+                    background: #fdb462;
+                    margin: 10px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    border: 2px solid #000000;
+                "
+            >
                 <img
                     class="profile-picture"
                     src="https://res.cloudinary.com/dlkk03hhl/image/upload/v1740561033/applicationFormImage_67bed891d9d7b9368adea41d_1736313245177-01-01-01.jpeg.jpg"
                     alt="Profile Picture"
+                    style="
+                        width: 33%;
+                        height: 100%;
+                        margin-right: 5px;
+                        border-radius: 10px;
+                        border: 2px solid #000000;
+                    "
                 />
-                <div class="card-details">
-                    <h2>Fi Amanillah</h2>
-                    <h3>Web Developer</h3>
-                    <a href="mailto:fi@amanillah.com" target="_blank" rel="noopener noreferrer">
-                        <p>📧 fi@amanillah.com</p>
+                <div style="color: #333">
+                    <h2
+                        style="
+                            margin: 0 0;
+                            font-size: 1.7rem;
+                            margin-bottom: 5px;
+                            white-space: nowrap;
+                        "
+                    >
+                        Fi Amanillah
+                    </h2>
+                    <h3 style="margin: 0 0; margin-bottom: 2px; font-size: 1.1rem">
+                        Web Developer
+                    </h3>
+                    <a
+                        href="mailto:fi@amanillah.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style="text-decoration: none; color: #333; font-weight: 600"
+                    >
+                        <p style="margin: 2px 0; font-size: 14px">📧 fi@amanillah.com</p>
                     </a>
-                    <a href="http://fi.amanillah.com" target="_blank" rel="noopener noreferrer">
-                        <p>🌐 fi.amanillah.com</p>
+                    <a
+                        href="http://fi.amanillah.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style="text-decoration: none; color: #333; font-weight: 600"
+                    >
+                        <p style="margin: 2px 0; font-size: 14px">🌐 fi.amanillah.com</p>
                     </a>
-                    <a href="https://wa.link/tghi4g" target="_blank" rel="noopener noreferrer">
-                        <p>📞 +8801608505647</p>
+                    <a
+                        href="https://wa.link/tghi4g"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style="text-decoration: none; color: #333; font-weight: 600"
+                    >
+                        <p style="margin: 2px 0; font-size: 14px">📞 +8801608505647</p>
                     </a>
                     <a
                         href="https://maps.app.goo.gl/vSubR8RK9AuENcEf8"
                         target="_blank"
                         rel="noopener noreferrer"
+                        style="text-decoration: none; color: #333; font-weight: 600"
                     >
-                        <p>📍 Mirpur 1, Dhaka -1216, Bangladesh</p>
+                        <p style="margin: 2px 0; font-size: 14px">
+                            📍 Mirpur 1, Dhaka -1216, Bangladesh
+                        </p>
                     </a>
-                    <div class="social-icons">
+                    <div style="margin-top: 3px">
                         <a
                             href="https://www.facebook.com/fiamanillah.b2"
                             target="_blank"
@@ -157,6 +146,7 @@
                             <img
                                 src="https://res.cloudinary.com/dlkk03hhl/image/upload/v1740561904/applicationFormImage_67bed891d9d7b9368adea41d_ph--facebook-logo-bold.png.png"
                                 alt="Facebook"
+                                style="width: 30px; height: 30px; margin-right: 8px"
                             />
                         </a>
                         <a
@@ -167,6 +157,7 @@
                             <img
                                 src="https://res.cloudinary.com/dlkk03hhl/image/upload/v1740561991/applicationFormImage_67bed891d9d7b9368adea41d_jam--linkedin-circle.png.png"
                                 alt="LinkedIn"
+                                style="width: 30px; height: 30px; margin-right: 8px"
                             />
                         </a>
                         <a
@@ -177,12 +168,14 @@
                             <img
                                 src="https://res.cloudinary.com/dlkk03hhl/image/upload/v1740562051/applicationFormImage_67bed891d9d7b9368adea41d_raphael--githubalt.png.png"
                                 alt="Github"
+                                style="width: 30px; height: 30px; margin-right: 8px"
                             />
                         </a>
                         <a href="http://fi.amanillah.com" target="_blank" rel="noopener noreferrer">
                             <img
                                 src="https://res.cloudinary.com/dlkk03hhl/image/upload/v1740562102/applicationFormImage_67bed891d9d7b9368adea41d_mdi--web.png.png"
                                 alt="Website"
+                                style="width: 30px; height: 30px; margin-right: 8px"
                             />
                         </a>
                     </div>
