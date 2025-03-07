@@ -25,6 +25,8 @@
 .DS_Store
 *.pem
 *.vscode
+*.idea
+.idea
 
 
 # debug
