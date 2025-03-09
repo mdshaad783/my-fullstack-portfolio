@@ -7,6 +7,7 @@ const NotFound: React.FC = () => {
     return (
         <Section className="flex justify-center items-center text-center relative">
             <Image src={NotFound404} alt="404" width={500} height={500} />
+
             <Link href="/">Go back to home</Link>
         </Section>
     );

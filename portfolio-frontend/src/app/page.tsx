@@ -11,32 +11,36 @@ import ContactSection from './sections/ContactSection';
 import FooterSection from './sections/FooterSection';
 
 const Home: React.FC = () => {
-    return (
-        <>
-            <div id="home">
-                <HeroSection />
-            </div>
-            <div className="relative">
-                <SectionBackgrpound1 />
+    return (<>
+        <div id="home">
+            <HeroSection/>
+        </div>
+        <div className="relative">
+            <SectionBackgrpound1/>
 
-                <LogoSlideSection />
-                <div id="about">
-                    <AboutSection />
-                </div>
-                <div id="skills">
-                    <SkillSection />
-                </div>
-                <TextParalaxEffect />
-                <div id="projects">
-                    <ProjectSection />
-                </div>
-                <div id="contact">
-                    <ContactSection />
-                </div>
+            <LogoSlideSection/>
+            <div id="about">
+                <AboutSection/>
             </div>
-            <FooterSection />
-        </>
-    );
+            <div id="skills">
+                <SkillSection/>
+            </div>
+
+            <TextParalaxEffect/>
+            <div id="projects">
+                <ProjectSection/>
+            </div>
+            <div id="contact">
+
+
+
+                <ContactSection/>
+            </div>
+        </div>
+
+
+        <FooterSection/>
+    </>);
 };
 
 export default Home;
