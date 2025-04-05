@@ -15,11 +15,8 @@ import SimpleIconsExpress from '@/assets/icons/SimpleIconsExpress';
 import TablerBrandNextjs from '@/assets/icons/TablerBrandNextjs';
 import SimpleIconsMongodb from '@/assets/icons/SimpleIconsMongodb';
 import SimpleIconsMongoose from '@/assets/icons/SimpleIconsMongoose';
-import UiwLinux from '@/assets/icons/UiwLinux';
 import LogosJwtIcon from '@/assets/icons/LogosJwtIcon';
 import MingcuteVscodeFill from '@/assets/icons/MingcuteVscodeFill';
-import DeviconPlainWebstorm from '@/assets/icons/DeviconPlainWebstorm';
-import DeviconPlainPostman from '@/assets/icons/DeviconPlainPostman';
 import TeenyiconsGitSolid from '@/assets/icons/TeenyiconsGitSolid';
 import HugeiconsGithub from '@/assets/icons/HugeiconsGithub';
 
