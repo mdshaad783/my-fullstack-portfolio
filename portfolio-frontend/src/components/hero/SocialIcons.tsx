@@ -10,7 +10,7 @@ interface SocialLink {
 // Array of social links
 const socialLinks: SocialLink[] = [
     {
-        href: 'https://www.facebook.com/fiamanillah.b2/',
+        href: 'https://www.facebook.com/mdshaad783/',
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const socialLinks: SocialLink[] = [
         ),
     },
     {
-        href: 'https://www.linkedin.com/in/fi-amanillah/',
+        href: 'www.linkedin.com/in/𝗠𝗱-𝗦𝗵𝗮𝗮𝗱-𝗥𝗲𝗵𝗮𝗻-6a8113230',
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ const socialLinks: SocialLink[] = [
         ),
     },
     {
-        href: 'https://github.com/fiamanillah',
+        href: 'https://github.com/mdshaad783',
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ const socialLinks: SocialLink[] = [
         ),
     },
     {
-        href: 'mailto:fi@amanillah.com',
+        href: 'mailto:mdshaad783@gmail.com',
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"

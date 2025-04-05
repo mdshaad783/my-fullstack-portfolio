@@ -5,6 +5,7 @@ import { Oxanium } from 'next/font/google';
 import LenisProvider from '@/components/utils/LenisProvider';
 import { Toaster } from '@/components/ui/sonner';
 import Header from '@/components/header/Header';
+import { icons } from 'lucide-react';
 
 const oxanium = Oxanium({
     subsets: ['latin'],
@@ -12,8 +13,8 @@ const oxanium = Oxanium({
 });
 
 export const metadata = {
-    title: 'Fi Amanillah',
-    description: 'Fi Amanillah - Portfolio',
+    title: 'Md Shaad Rehan',
+    description: 'Md Shaad Rehan - Portfolio',
 };
 
 // Define Props Type

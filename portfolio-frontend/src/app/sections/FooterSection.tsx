@@ -8,7 +8,7 @@ const FooterSection: React.FC = () => {
     return (
         <Section className={'border-t border-border'}>
             <div className="text-center">
-                <p>Made by FiAmanillah @ All rights reserved | {currentYear}</p>
+                <p>Made by MdShaadRehan @ All rights reserved | {currentYear}</p>
             </div>
         </Section>
     );

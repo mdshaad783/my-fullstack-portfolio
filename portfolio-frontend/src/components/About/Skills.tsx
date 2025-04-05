@@ -4,6 +4,10 @@ import { motion } from 'motion/react'; // Keep the motion import as it is
 import TablerBrandRedux from '@/assets/icons/TablerBrandRedux';
 import NoniconsReact16 from '@/assets/icons/NoniconsReact16';
 import PhFileJsBold from '@/assets/icons/PhFileJsBold';
+import JavaCode from '@/assets/icons/JavaCode.jsx';
+import BootstrapCode from '@/assets/icons/BootstrapCode.jsx';
+import DjangoCode from '@/assets/icons/DjangoCode.jsx';
+import PythonCode from '@/assets/icons/PythonCode.jsx';
 import TeenyiconsTailwindSolid from '@/assets/icons/TeenyiconsTailwindSolid';
 import NoniconsNode16 from '@/assets/icons/NoniconsNode16';
 import SimpleIconsExpress from '@/assets/icons/SimpleIconsExpress';
@@ -32,28 +36,34 @@ interface Categories {
 const Skills: React.FC = () => {
     // Define the categories object
     const categories: Categories = {
-        language: [{ icon: PhFileJsBold, name: 'Javascript' }],
+        language: [
+            { icon: PythonCode, name: 'Python' },
+            { icon: PhFileJsBold, name: 'Java' },
+            { icon: JavaCode, name: 'Javascript' }
+        ],
         frontend: [
             { icon: NoniconsReact16, name: 'React Js' },
+            { icon: TeenyiconsTailwindSolid, name: 'Tailwind Css' },
+            { icon: BootstrapCode, name: 'Bootstrap' },
             { icon: TablerBrandRedux, name: 'Redux' },
             { icon: TablerBrandNextjs, name: 'Next js' },
-            { icon: TeenyiconsTailwindSolid, name: 'Tailwind Css' },
         ],
         backend: [
             { icon: NoniconsNode16, name: 'Node Js' },
             { icon: SimpleIconsExpress, name: 'Express Js' },
             { icon: SimpleIconsMongodb, name: 'MongoDb' },
             { icon: SimpleIconsMongoose, name: 'Mongoose' },
+            { icon: DjangoCode, name: 'Django' },
             { icon: LogosJwtIcon, name: 'Jwt' },
         ],
         tools: [
             { icon: MingcuteVscodeFill, name: 'Vs code' },
-            { icon: DeviconPlainWebstorm, name: 'Webstorm' },
+            // { icon: DeviconPlainWebstorm, name: 'Webstorm' },
             { icon: DeviconPlainPostman, name: 'Postman' },
             { icon: TeenyiconsGitSolid, name: 'Git' },
             { icon: HugeiconsGithub, name: 'Github' },
         ],
-        others: [{ icon: UiwLinux, name: 'Linux' }],
+        // others: [{ icon: UiwLinux, name: 'Linux' }],
     };
 
     return (

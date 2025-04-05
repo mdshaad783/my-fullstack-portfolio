@@ -6,7 +6,7 @@ import * as motion from 'motion/react-client'; // Keep the motion import as it i
 import TypingEffect from '@/components/client/TypingEffect';
 
 // Import assets
-import heroImage from '@/assets/images/hero.png';
+import heroImage from '@/assets/images/hero5.png';
 import heroBg from '@/assets/images/backgrounds/heroBackground.svg';
 import crossArrow from '@/assets/elements/crossArrow.svg';
 import headShine from '@/assets/elements/headShine.svg';
@@ -61,7 +61,7 @@ const HeroSection: React.FC = () => {
                                     fill="transparent"
                                     className="text-primary stroke-primary stroke-[5px] opacity-10"
                                 >
-                                    Fi Amanillah
+                                    Shaad Rehan
                                 </text>
                             </svg>
                         </div>
@@ -90,7 +90,7 @@ const HeroSection: React.FC = () => {
 
                         <TextReveal className={'bg-primary'}>
                             <h1 className="text-6xl font-bold relative text-primary">
-                                Fi Amanillah
+                                Md Shaad Rehan
                             </h1>
                         </TextReveal>
 
@@ -100,7 +100,7 @@ const HeroSection: React.FC = () => {
                                 words={[
                                     'Web Developer',
                                     'MERN Stack Developer',
-                                    'Frontend Enthusiast',
+                                    'Python Developer',
                                     'Problem Solver',
                                 ]}
                             />
@@ -141,9 +141,9 @@ const HeroSection: React.FC = () => {
                             >
                                 <Image
                                     src={heroImage}
-                                    alt="Fi Amanillah"
+                                    alt="Md Shaad Rehan"
                                     priority
-                                    className="w-[90%] drop-shadow-[2px_-2px_2px_rgba(0,0,0,1)]"
+                                    className="w-full h-[280px] -ml-5 md:h-[500px] lg:h-[460px] drop-shadow-[2px_-2px_2px_rgba(0,0,0,1)] object-cover contrast-105"
                                 />
 
                                 {/* Head Shine Animation */}

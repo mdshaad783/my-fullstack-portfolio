@@ -29,23 +29,23 @@ const ContactSection: React.FC = () => {
                         <span className="flex items-center text-primary text-xl gap-2 font-bold">
                             <HugeiconsMailOpen />
                             <a
-                                href="mailto:fi@amanillah.com"
+                                href="mailto:mdshaad783@gmail.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="no-underline font-bold hover:text-primary/90 translate-y-1"
                             >
-                                fi@amanillah.com
+                                mdshaad783@gmail.com
                             </a>
                         </span>
                         <span className="flex items-center text-primary text-xl gap-2 font-bold">
                             <SiPhoneDuotone />
                             <a
-                                href="https://wa.link/tghi4g"
+                                href="https://api.whatsapp.com/send?phone=9334342004"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="no-underline font-bold hover:text-primary/90 translate-y-1"
                             >
-                                +8801608505647
+                                +91-9334342004
                             </a>
                         </span>
                         <span className="flex items-center text-primary text-xl gap-2 font-bold">
@@ -56,27 +56,27 @@ const ContactSection: React.FC = () => {
                                 rel="noopener noreferrer"
                                 className="no-underline font-bold hover:text-primary/90 translate-y-1"
                             >
-                                Mirpur 1, Dhaka, Bangladesh
+                                Jahangirabad, Bhopal, India
                             </a>
                         </span>
                     </div>
                     <div className="flex gap-3 text-4xl mt-4">
                         <a
-                            href="https://www.facebook.com/fiamanillah.b2/"
+                            href="https://www.facebook.com/mdshaad783/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <MingcuteFacebookLine />
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/fi-amanillah/"
+                            href="www.linkedin.com/in/𝗠𝗱-𝗦𝗵𝗮𝗮𝗱-𝗥𝗲𝗵𝗮𝗻-6a8113230"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <JamLinkedinCircle />
                         </a>
                         <a
-                            href="https://github.com/fiamanillah"
+                            href="https://github.com/mdshaad783"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

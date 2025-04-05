@@ -1,16 +1,11 @@
 import Section from '@/components/global/Section';
 import Image from 'next/image';
-import profile1 from '@/assets/images/profile1.png';
+import profile1 from '@/assets/images/profile1.jpg';
 import AnimatedText from '@/components/global/ScrollFadeParagraph';
 import HugeiconsUniversity from '@/assets/icons/HugeiconsUniversity';
 import * as motion from 'motion/react-client';
 
-const aboutText = `
-    Hi, I’m Fi Amanillah, a passionate and detail-oriented MERN Stack Developer with expertise in building dynamic, responsive, and user-friendly web applications. 
-    Proficient in React, Redux, Node.js, Express, MongoDB, and Mongoose, I specialize in crafting seamless full-stack solutions. My skill set also includes modern 
-    front-end technologies like Tailwind CSS, JavaScript, HTML, and CSS, ensuring visually appealing and efficient designs. With a strong foundation in Linux and a 
-    commitment to clean, maintainable code, I thrive on solving complex problems and delivering high-quality digital experiences. Let’s build something amazing together!
-`;
+const aboutText = `Hi, I’m Md Shaad Rehan, a passionate and detail-oriented MERN Stack Developer with expertise in building dynamic, responsive, and user-friendly web applications. Proficient in React, Redux, Node.js, Express, MongoDB, and Mongoose as well as Django I specialize in crafting seamless full-stack solutions. My skill set also includes modern front-end technologies like Tailwind CSS, Bootstrap, JavaScript, HTML, and CSS, ensuring visually appealing and efficient designs.With a strong foundation in Web development, I have also deepen my roots in Software development with Python. I consider my self responsible and orderly person. Let’s build something amazing together!`;
 
 const AboutSection = () => {
     return (
@@ -41,14 +36,14 @@ const AboutSection = () => {
                     <div className="w-60 h-60">
                         <Image
                             src={profile1}
-                            alt="Fi Amanillah"
+                            alt="Md Shaad Rehan"
                             className="rounded-lg w-full h-full object-cover"
                         />
                     </div>
                     <div className="flex flex-col">
-                        <span>fi@amanillah.com</span>
-                        <span>+880608505647</span>
-                        <span>Mirpur 1, Dhaka, Bangladesh</span>
+                        <span>mdshaad783@gmail.com</span>
+                        <span>+91-9334342004</span>
+                        <span>Bhopal, India</span>
                     </div>
                 </motion.div>
             </div>
@@ -66,12 +61,12 @@ const AboutSection = () => {
                         <div className="border-l-4 border-primary pl-2">
                             <h3>Bachelor in Computer Science and Engineering</h3>
                             <span className="flex items-center gap-2">
-                                <HugeiconsUniversity /> European University of Bangladesh
+                                <HugeiconsUniversity /> Technocrats Institute of Technology & Science, Bhopal
                             </span>
                         </div>
                     </div>
                     <div className="max-mobile-lg:mt-2">
-                        <span>2024 - present</span>
+                        <span>2021 - 2025</span>
                     </div>
                 </motion.div>
             </div>

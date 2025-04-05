@@ -11,7 +11,7 @@ import mongoose from '@/assets/icons/skill/devicon--mongoose-wordmark.svg';
 import expressjs from '@/assets/icons/skill/skill-icons--expressjs-light.svg';
 import mongodb from '@/assets/icons/skill/skill-icons--mongodb.svg';
 import nextjs from '@/assets/icons/skill/skill-icons--nextjs-light.svg';
-import linux from '@/assets/icons/skill/skill-icons--linux-light.svg';
+// import linux from '@/assets/icons/skill/skill-icons--linux-light.svg';
 import nodejs from '@/assets/icons/skill/skill-icons--nodejs-light.svg';
 import react from '@/assets/icons/skill/skill-icons--react-light.svg';
 import redux from '@/assets/icons/skill/skill-icons--redux.svg';
@@ -25,7 +25,7 @@ const logos = [
     expressjs,
     mongodb,
     nextjs,
-    linux,
+    // linux,
     nodejs,
     react,
     redux,

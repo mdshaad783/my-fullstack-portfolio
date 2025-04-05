@@ -134,11 +134,11 @@ const Card: React.FC<CardProps> = ({ project, progress, range, targetScale, inde
                                     </Button>
                                 </Link>
                             </div>
-                            <Image
+                            {/* <Image
                                 src={project.logo}
                                 alt="project logo"
                                 className="absolute right-2 bottom-2 w-20"
-                            />
+                            /> */}
                         </div>
                     </div>
                 </div>
