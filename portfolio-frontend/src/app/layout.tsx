@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { ReactNode } from 'react';
 import { ThemeProvider } from 'next-themes';
 import '@/app/globals.css';
@@ -5,7 +6,7 @@ import { Oxanium } from 'next/font/google';
 import LenisProvider from '@/components/utils/LenisProvider';
 import { Toaster } from '@/components/ui/sonner';
 import Header from '@/components/header/Header';
-import { icons } from 'lucide-react';
+// import { icons } from 'lucide-react';
 
 const oxanium = Oxanium({
     subsets: ['latin'],
