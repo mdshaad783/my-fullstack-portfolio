@@ -32,7 +32,7 @@ const projects: Project[] = [
         color: 'bg-card',
         techUsed: ['HTML', 'CSS', 'JavaScript'],
         demoLink: '',
-        codeLink: '',
+        codeLink: 'https://github.com/mdshaad783/Harmoniq_mp.git',
     },
     {
         id: 2,
@@ -43,7 +43,7 @@ const projects: Project[] = [
         color: 'bg-card',
         techUsed: ['JavaScript', 'Open Weather Api'],
         demoLink: '',
-        codeLink: '',
+        codeLink: 'https://github.com/mdshaad783/weather_webapp.git',
     },
     {
         id: 3,
@@ -54,7 +54,7 @@ const projects: Project[] = [
         color: 'bg-card',
         techUsed: ['HTML', 'CSS', 'Javscript'],
         demoLink: '',
-        codeLink: '',
+        codeLink: 'https://github.com/mdshaad783/typingspeed_webapp.git',
     },
     {
         id: 4,
@@ -65,7 +65,7 @@ const projects: Project[] = [
         color: 'bg-card',
         techUsed: ['Python', 'Django'],
         demoLink: '',
-        codeLink: '',
+        codeLink: 'https://github.com/mdshaad783/to-do_list.git',
     },
     {
         id: 5,
@@ -76,7 +76,7 @@ const projects: Project[] = [
         color: 'bg-card',
         techUsed: ['React js', 'Node Js', 'Mongodb', 'Express js'],
         demoLink: '',
-        codeLink: '',
+        codeLink: 'https://github.com/mdshaad783/shaad_footwear.git',
     },
 ];
 
