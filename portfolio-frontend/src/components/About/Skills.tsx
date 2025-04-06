@@ -19,6 +19,7 @@ import LogosJwtIcon from '@/assets/icons/LogosJwtIcon';
 import MingcuteVscodeFill from '@/assets/icons/MingcuteVscodeFill';
 import TeenyiconsGitSolid from '@/assets/icons/TeenyiconsGitSolid';
 import HugeiconsGithub from '@/assets/icons/HugeiconsGithub';
+import DeviconPlainPostman from '@/assets/icons/DeviconPlainPostman';
 
 // Define the type for a skill
 interface Skill {
