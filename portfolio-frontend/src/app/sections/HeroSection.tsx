@@ -143,7 +143,7 @@ const HeroSection: React.FC = () => {
                                     src={heroImage}
                                     alt="Md Shaad Rehan"
                                     priority
-                                    className="w-full h-[280px] -ml-5 md:h-[500px] lg:h-[460px] drop-shadow-[2px_-2px_2px_rgba(0,0,0,1)] object-cover contrast-105"
+                                    className="w-full h-[550px] -ml-5 md:h-[650px] lg:h-[560px] drop-shadow-[2px_-2px_2px_rgba(0,0,0,1)] object-cover contrast-105"
                                 />
 
                                 {/* Head Shine Animation */}
