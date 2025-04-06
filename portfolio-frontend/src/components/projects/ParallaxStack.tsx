@@ -17,7 +17,6 @@ interface Project {
     description: string;
     image: StaticImageData; // Use StaticImageData for imported images
     color: string;
-    logo: StaticImageData; // Use StaticImageData for imported logos
     techUsed: string[];
     demoLink: string;
     codeLink: string;
@@ -134,11 +133,6 @@ const Card: React.FC<CardProps> = ({ project, progress, range, targetScale, inde
                                     </Button>
                                 </Link>
                             </div>
-                            {/* <Image
-                                src={project.logo}
-                                alt="project logo"
-                                className="absolute right-2 bottom-2 w-20"
-                            /> */}
                         </div>
                     </div>
                 </div>
