@@ -115,11 +115,11 @@ const Card: React.FC<CardProps> = ({ project, progress, range, targetScale, inde
                         <div className="flex gap-2 items-end justify-between">
                             <div className="flex gap-2">
                                 <Button>
-                                    Code
+                                    Demo
                                     <Code className="translate-y-[-2.5px]" />
                                 </Button>
                                 <Link
-                                    href={project.demoLink}
+                                    href={project.codeLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-foreground no-underline"
@@ -128,7 +128,7 @@ const Card: React.FC<CardProps> = ({ project, progress, range, targetScale, inde
                                         variant="outline"
                                         className="flex items-center font-bold"
                                     >
-                                        Demo
+                                        Code
                                         <SquareArrowOutUpRight className="translate-y-[-2.5px]" />
                                     </Button>
                                 </Link>
