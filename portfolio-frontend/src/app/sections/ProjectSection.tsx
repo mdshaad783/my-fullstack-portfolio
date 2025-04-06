@@ -16,7 +16,6 @@ interface Project {
     description: string;
     image: StaticImageData; // Use StaticImageData for imported images
     color: string;
-    // logo: StaticImageData; // Use StaticImageData for imported logos
     techUsed: string[];
     demoLink: string;
     codeLink: string;
@@ -31,7 +30,6 @@ const projects: Project[] = [
             'Harmoniq is a client-side scripted music player that plays songs from client-server instead of web server with a smooth user experience supporting features like pause or paly a song, change a song, volume-slider and many more. It is purely built with JavaScript without using any frameworks or libraries.',
         image: projectImage1,
         color: 'bg-card',
-        // logo: linux,
         techUsed: ['HTML', 'CSS', 'JavaScript'],
         demoLink: '',
         codeLink: '',
@@ -43,7 +41,6 @@ const projects: Project[] = [
             'Weatherium is a real-time weather forecasting application that provides users with up-to-date weather conditions, temperature, humidity, wind speed, and more. It features a sleek UI, location-based weather updates, and supports multiple cities worldwide.',
         image: projectImage2,
         color: 'bg-card',
-        // logo: linux,
         techUsed: ['JavaScript', 'Open Weather Api'],
         demoLink: '',
         codeLink: '',
@@ -55,7 +52,6 @@ const projects: Project[] = [
             'It is a typing-speed test web application that determins the typing speed in words-per-minute from a random sentence and also finds out the number of errors. It is built with pure JavaScript.',
         image: projectImage3,
         color: 'bg-card',
-        // logo: linux,
         techUsed: ['HTML', 'CSS', 'Javscript'],
         demoLink: '',
         codeLink: '',
@@ -67,7 +63,6 @@ const projects: Project[] = [
             'A task manager that schedules my further task, works as a task reminder and help me to manage my tasks.It is built with Django in backend providing user features like adding their tasks to do, viewing their tasks, deleting or updating their tasks.',
         image: projectImage4,
         color: 'bg-card',
-        // logo: linux,
         techUsed: ['Python', 'Django'],
         demoLink: '',
         codeLink: '',
@@ -79,7 +74,6 @@ const projects: Project[] = [
             'Shaad Footwear – Currently in development phase, I am developing a responsive e-commerce platform for footwear to browse & purchase latest collection of footwears. Features include secure authentication, dynamic product management, in-built payment-integration & an interactive UI with smooth animations. It is a MERN project built with React, Tailwind CSS, Node.js, Express.js, and MongoDB. 🚀',
         image: projectImage5,
         color: 'bg-card',
-        // logo: linux,
         techUsed: ['React js', 'Node Js', 'Mongodb', 'Express js'],
         demoLink: '',
         codeLink: '',
