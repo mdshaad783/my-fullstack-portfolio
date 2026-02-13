@@ -19,10 +19,10 @@ const Header: React.FC = () => {
                     >
                         <Image
                             src={logo}
-                            alt="Shaad Rehan"
+                            alt="SR"
                             className="h-full max-w-10 -translate-y-1 pt-1"
                         />
-                        Md Shaad Rehan
+                        Shaad Rehan
                     </Link>
                 </h1>
                 <div className="max-tablet-lg:hidden basis-4/6 flex justify-center">
