@@ -69,7 +69,7 @@ const ContactSection: React.FC = () => {
                             <MingcuteFacebookLine />
                         </a>
                         <a
-                            href="www.linkedin.com/in/𝗠𝗱-𝗦𝗵𝗮𝗮𝗱-𝗥𝗲𝗵𝗮𝗻-6a8113230"
+                            href="www.linkedin.com/in/mdshaad783/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
