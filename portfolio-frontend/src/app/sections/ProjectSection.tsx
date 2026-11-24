@@ -7,6 +7,7 @@ import projectImage2 from '@/assets/images/projects/2.png';
 import projectImage3 from '@/assets/images/projects/3.png';
 import projectImage4 from '@/assets/images/projects/4.png';
 import projectImage5 from '@/assets/images/projects/5.png';
+import projectImage6 from '@/assets/images/projects/6.png';
 import { StaticImageData } from 'next/image'; // Correct type for static images
 
 // Define the type for a project
@@ -74,10 +75,21 @@ const projects: Project[] = [
             'Shaad Footwear – Currently in development phase, I am developing a responsive e-commerce platform for footwear to browse & purchase latest collection of footwears. Features include secure authentication, dynamic product management, in-built payment-integration & an interactive UI with smooth animations. It is a MERN project built with React, Tailwind CSS, Node.js, Express.js, and MongoDB. 🚀',
         image: projectImage5,
         color: 'bg-card',
-        techUsed: ['React js', 'Node Js', 'Mongodb', 'Express js'],
+        techUsed: ['React Js', 'Node Js', 'Mongodb', 'Express Js'],
         demoLink: '',
         codeLink: 'https://github.com/mdshaad783/shaad_footwear.git',
     },
+    {
+        id: 6,
+        title: 'Circle - Social Media App',
+        description: 'Circle is a full-stack social media app where users sign up with a profile picture, share posts with photos, like posts, search for people and add or remove friends from their profiles. It features JWT authentication, light and dark themes and a responsive layout. Started from a MERN tutorial foundation and extended with live user search, friend actions on profiles and a custom theme. It is built with React, Redux Toolkit, Material UI, Node.js, Express and MongoDB.',
+        image: projectImage6,
+        color: 'bg-card',
+        techUsed: ['React Js', 'Redux', 'MUI', 'Node Js', 'Express Js', 'Mongodb'],
+        demoLink: '',
+        codeLink: 'https://github.com/mdshaad783/social_media',
+    },
+     
 ];
 
 const ProjectSection: React.FC = () => {

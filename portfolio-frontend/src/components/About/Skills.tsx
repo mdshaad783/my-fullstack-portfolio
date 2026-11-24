@@ -15,6 +15,7 @@ import SimpleIconsExpress from '@/assets/icons/SimpleIconsExpress';
 import TablerBrandNextjs from '@/assets/icons/TablerBrandNextjs';
 import SimpleIconsMongodb from '@/assets/icons/SimpleIconsMongodb';
 import SimpleIconsMongoose from '@/assets/icons/SimpleIconsMongoose';
+import SimpleIconsMySQL from '@/assets/icons/SimpleIconsMySQL';
 import LogosJwtIcon from '@/assets/icons/LogosJwtIcon';
 import MingcuteVscodeFill from '@/assets/icons/MingcuteVscodeFill';
 import TeenyiconsGitSolid from '@/assets/icons/TeenyiconsGitSolid';
@@ -52,6 +53,7 @@ const Skills: React.FC = () => {
             { icon: SimpleIconsExpress, name: 'Express Js' },
             { icon: SimpleIconsMongodb, name: 'MongoDb' },
             { icon: SimpleIconsMongoose, name: 'Mongoose' },
+            { icon: SimpleIconsMySQL, name: 'MySQL' },
             { icon: DjangoCode, name: 'Django' },
             { icon: LogosJwtIcon, name: 'Jwt' },
         ],
